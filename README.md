@@ -34,6 +34,52 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+Tech Stack
+```
+- Frontend: Next.js (App Router), React, TailwindCSS, shadcn/ui
+- Charts: Recharts
+- Forms & Validation: react-hook-form + zod
+- Backend: Next.js API Routes
+- Database: MongoDB with Mongoose
+- Deployment: Vercel
+```
+Features
+```
+Stage 1: Transaction Dashboard
+- Add/Edit/Delete transactions (amount, date, description)
+- View monthly expenses (bar chart)
+- See category-wise breakdown (pie chart)
+- Recent transactions + total expenses summary
+```
+
+```
+Stage 2: Categories
+- Predefined category selection for each transaction
+- Category-wise pie chart
+- Dashboard summary cards
+```
+
+```
+Stage 3: Budgeting
+- Set monthly budgets per category
+- Budget vs Actual spend bar chart
+- Color-coded insights (Under/Over Budget)
+- Edit/Delete budget entries
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
