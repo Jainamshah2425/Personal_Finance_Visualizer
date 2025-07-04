@@ -1,38 +1,26 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
 1. Clone the Repo
    
+```
 git clone https://github.com/your-username/personal-finance-visualizer.git
 
 cd personal-finance-visualizer
+```
 
-3. Install Dependencies
-   
+2. Install Dependencies
+```   
 npm install
-
+```
 4. Configure MongoDB
-   
+ ```
 Create .env.local file:
 MONGODB_URI=your_mongo_connection_string
-
+```
 5. Run Locally
-
+```
 npm run dev
-
+```
 API Testing with Postman
 
 - GET /api/transactions
