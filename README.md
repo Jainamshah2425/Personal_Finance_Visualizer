@@ -14,6 +14,32 @@ pnpm dev
 bun dev
 ```
 
+1. Clone the Repo
+   
+git clone https://github.com/your-username/personal-finance-visualizer.git
+
+cd personal-finance-visualizer
+
+3. Install Dependencies
+   
+npm install
+
+4. Configure MongoDB
+   
+Create .env.local file:
+MONGODB_URI=your_mongo_connection_string
+
+5. Run Locally
+
+npm run dev
+
+API Testing with Postman
+
+- GET /api/transactions
+- POST /api/transactions
+- PUT /api/transactions/:id
+- DELETE /api/transactions/:id
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
